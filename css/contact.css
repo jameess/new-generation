@@ -1,0 +1,42 @@
+.card{
+  margin:70px 150px 0 150px;
+}
+.heading{
+  margin-top:100px;
+  
+}
+.contact{
+  background-color: rgba(95, 95, 235, 0.87);
+}
+
+.md-form {
+  display:flex;
+}   
+.btn-floating {
+  height:50px;
+  width:70px;
+}
+#cont li{
+  list-style-type: none !important;
+}
+.mapouter{
+  
+  margin:30px 0 0 0px;
+  
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+
+}
+@media screen and (max-width:700px){
+  .card{
+    margin:10px 20px 0 20px;
+  }
+
+}
+@media screen and (min-width:300px) and (max-width:499px){
+  .card{
+    margin-top:50px;
+  }
+}

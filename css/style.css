@@ -1,0 +1,947 @@
+/* Required for full background image */
+
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+body{
+ 
+}
+h2{
+  color:#58c21e;
+}
+.carousel 
+{
+
+}
+.top-head{
+ 
+  width:100%;
+ padding:0 50px 0 20px !important;
+  height:25px;
+  
+  
+}
+.top-head h4{
+z-index: 5;
+color:white;  
+font-size: 18px;
+font-weight: 400;
+}
+.top-head h4 span{
+color:#4ee60e;padding-right:5px;
+  }
+.top-head .social{
+  display: flex;
+  justify-content: flex-end;
+  margin-top:-30px;
+}
+
+.navbar-nav{
+ 
+  margin-left:28%;
+}
+.navbar-nav li{
+  padding-left:10px;
+}
+.carousel-caption{
+ 
+  margin-bottom:40px !important;
+}
+.carousel-caption p{
+  color:#58c21e;
+  font-size: 20px;
+  font-weight:200px;
+
+}
+header{
+
+  height:600px;
+
+  
+}
+.shows{
+  width:100%;
+  height:50px;
+  background: rgba(233, 233, 233, 0.767);
+  margin-top: -19px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 3px 0px #888888;
+}
+.shows p{
+  padding:12px 0 0 40px;
+}
+.search-trip{
+ 
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  background: rgb(143, 141, 141);
+  margin-top:130px;
+
+}
+.search-trip .head {
+  background-color: #58c21e;
+  width:140px;
+  color:rgb(243, 240, 240);  
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+ #sec1,#sec2,#sec3,#sec4{
+ margin:8px;
+ width:170px;
+ border:1px solid  #58c21e;;
+
+ 
+ 
+}
+#more-blog{
+  background-color: #424f95;
+  width:180px;
+  height:50px;
+  
+}
+
+.btn{
+  background-color: #58c21e;
+}
+.nepal-trek {
+margin:130px 10px 10px 10px;
+
+
+}
+.days{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -40px;
+}
+.nepal-trek .captions{
+ margin:-80px 0 30px 0;
+}
+.nepal-trek h2{
+color:#58c21e;
+}
+
+.card-deck{
+  margin:0 60px 10px 60px;
+}
+.nepal-trek .card-deck .view{
+ 
+  height:48%;
+}
+.blog .card-deck .view{
+ 
+  height:40%;
+}
+.newsletter{
+  height:300px;
+  display:flex;
+  background-color: rgb(212, 211, 209);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newsletter-form{
+  display:flex;
+  width:58%;
+  height:60px;
+  margin-top:15px;
+ 
+
+
+}
+.newsletter-form .btn{
+width:150px;
+}
+.star-icon{
+  display:flex;
+  margin:12px 0 0 5px;;
+  position: absolute;
+
+}
+.star-icon i{
+color: rgb(250, 183, 14);
+z-index:3;
+padding:3px;
+}
+.trip-price{
+  width:150px;
+  height:60px;
+  background-color:#58c21e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:-30px 0 0 60%;
+  z-index: 3;
+}
+.trip-price p{
+  font-size: 16px;
+  margin-top:15px;
+}
+.arrnapurna .trip-price{
+
+  width:150px;
+  height:60px;
+  background-color:#58c21e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:-21% 0 0 60% !important;
+  z-index: 3;
+
+}
+
+
+.blog-date{
+  background-color: #58c21e;
+  width:68px;
+  height:75px;
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+#deck-2{
+  margin-top:28px;
+  
+}
+.blog{
+  margin:30px 0 20px 0;
+}
+
+.our-service{
+  background-color: rgb(212, 211, 209);
+  padding-top:20px;
+  padding-bottom:20px;
+  
+}
+.our-service section{
+margin:5px 20px 15px 20px;
+}
+
+.testimonial{
+  margin:10px 70px 0 70px;
+}
+.testimonial h3{
+  margin-top:-25px;
+}
+
+.destination{
+  margin:-30px 0 0px 0;
+  padding-bottom: 50px;
+ 
+ 
+}
+.destination .row{
+  margin:50px 20px 10px 20px;
+  padding-bottom: 50px;
+  border-bottom:1px solid rgb(97, 94, 94);
+ 
+}
+.destination .card{
+  margin-bottom: 15px;
+ 
+ 
+}
+.destination h2{
+	display: table;
+  margin: 5% auto 0;
+  
+	text-transform: uppercase;
+	font-family: 'Anaheim', sans-serif;
+	
+}
+@media (min-width: 800px) and (max-width: 850px) {
+ 
+}
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+.top-nav-collapse {
+  background-color: #424f95 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+}
+
+.btn-white {
+  color: black !important;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}
+@media screen and (min-width:1000px) and (max-width:1250px){
+ 
+  header{
+
+    height:600px;
+  }
+  .navbar-nav{
+    margin-left: 18% !important;
+  }
+  .carousel-caption{
+ 
+    margin-bottom:30px !important;
+  }
+  .trip-price{
+    width:120px;
+    height:50px;
+    margin:-13% 0 0 59%;
+  
+  }
+  .arrnapurna .trip-price{
+    width:120px;
+    height:50px;
+    margin:-25% 0 0 59% !important;
+  
+  }
+  .nepal-trek .card-deck .view{
+
+    height:42%;
+  }
+  .blog .card-deck .view{
+  
+    height:30%;
+ }
+ .blog-date{
+  width:60px;
+  height:65px;
+ }
+ .blog-date h4{
+   font-size: 15px;
+ }
+ .testimonial{
+  margin:10px 40px 0 40px;
+}
+
+}
+
+@media screen and (min-width:850px) and (max-width:1000px){
+ 
+  header{
+
+    height:520px;
+  }
+  .navbar-nav{
+    margin-left: 20% !important;
+  }
+  .carousel-caption{
+ 
+    margin-bottom:0px !important;
+
+  }
+  .search-trip{
+
+    margin-top:50px;
+  
+  }
+  .trip-price{
+    width:120px;
+    height:50px;
+    margin:-13% 0 0 59%;
+  
+  }
+  .arrnapurna .trip-price{
+    width:120px;
+    height:50px;
+    margin:-40% 0 0 59% !important;
+  
+  }
+  .nepal-trek .card-deck .view{
+  
+    height:42%;
+  }
+  .blog .card-deck .view{
+ 
+    height:30%;
+ }
+ .blog-date{
+  width:60px;
+  height:65px;
+ }
+ .blog-date h4{
+   font-size: 15px;
+ }
+ .discover-nepal{
+
+  margin:0px 20px 20px 20px;
+  grid-gap:2px;
+
+
+}
+.testimonial{
+  margin:10px 20px 0 20px;
+}
+footer .container{
+ 
+  width:1000px !important;
+}
+footer #logo{
+  width:150px;
+ 
+  margin-left:-65px !important;
+
+ }
+ footer #logo img{
+width:150px;
+ }
+}
+@media screen and (min-width:800px) and (max-width:850px){
+ 
+  header{
+
+    height:600px;
+  }
+  .navbar-nav{
+    margin-left: 5%;
+  }
+  .carousel{
+    height:500px !important;
+    margin-top:102px;
+  }
+  .carousel img{
+    width:100%;
+    height:100%;
+  }
+  .carousel-inner{
+    height:500px;
+ 
+
+  }
+  .carousel-caption{
+ 
+    margin-bottom:150px !important;
+
+  }
+  .search-trip{
+  
+  background-color: transparent;
+    display:flex;
+    flex-direction: column;
+ 
+    margin-top:8px;
+  
+  }
+  .search-trip .head {
+    background-color: #58c21e;
+    width:97%;
+    color:rgb(243, 240, 240);  
+   
+
+  }
+   #sec1,#sec2,#sec3,#sec4{
+   margin:4px;
+   width:95%;
+   height:30px;
+
+  
+   
+   
+  }
+  .card-deck{
+    margin:0 10px 10px 10px;
+  }
+  .search-trip .btn{
+height:40px;
+  }
+  .trip-price{
+    width:80px;
+    height:40px;
+    margin:-13% 0 0 58%;
+  
+  }
+  .arrnapurna .trip-price{
+    width:80px;
+    height:40px;
+    margin:-35% 0 0 59% !important;
+  
+  }
+  .nepal-trek .card-deck .view{
+   
+    height:35%;
+  }
+  .blog .card-deck .view{
+  
+    height:20%;
+ }
+ .blog-date{
+  width:50px;
+  height:55px;
+ }
+ .blog-date h4{
+   font-size: 15px;
+   margin-top:10px;
+ }
+ 
+.testimonial{
+  margin:10px 20px 0 20px;
+}
+footer .container{
+ 
+  width:1000px !important;
+}
+footer #logo{
+  width:150px;
+ 
+  margin-left:-65px !important;
+
+ }
+ footer #logo img{
+width:150px;
+ }
+}
+@media screen and (min-width:742px) and (max-width:800px){
+ 
+  header{
+  
+  height:500px;
+  }
+  .navbar-nav{
+    margin-left: 5%;
+  }
+  .carousel{
+    height:480px !important;
+    margin-top:80px !important;
+    z-index: 5;
+  }
+ 
+  .carousel-inner img{
+    height:400px;
+  }
+  .carousel-inner{
+   height:400px;
+  }
+  .carousel-caption{
+ 
+    margin-bottom:-10px !important;
+
+  }
+  .search-trip{
+  
+  background-color: transparent;
+    display:flex;
+    flex-direction: column;
+ 
+    margin-top:4px;
+  
+  }
+  .search-trip .head {
+    background-color: #58c21e;
+    width:97%;
+    color:rgb(243, 240, 240);  
+   
+
+  }
+   #sec1,#sec2,#sec3,#sec4{
+   margin:2px;
+   width:95%;
+   height:25px;
+
+  
+   
+   
+  }
+  .card-deck{
+    margin:0 10px 10px 10px;
+  }
+  .search-trip .btn{
+height:40px;
+  }
+  .trip-price{
+    width:70px;
+    height:30px;
+    margin:-13% 0 0 58%;
+  
+  }
+  .arrnapurna .trip-price{
+    width:70px;
+    height:30px;
+    margin:-13% 0 0 59% !important;
+  
+  }
+  .nepal-trek .card-deck .view{
+
+    height:25%;
+  }
+  .blog .card-deck .view{
+
+    height:15%;
+ }
+ .blog-date{
+  width:40px;
+  height:45px;
+ }
+ .blog-date h4{
+   font-size: 13px;
+   margin-top:20px;
+ }
+ 
+.discover .h2-responsive{
+  padding:35px 0 20px 0 !important;
+}
+
+.testimonial{
+  margin:10px 20px 0 20px;
+}
+}
+@media screen and (min-width:577px) and (max-width:741px){
+  header{
+
+    height:550px;
+  }
+  .navbar-nav{
+    margin-left: 5%;
+  }
+  .carousel{
+    height:500px !important;
+    margin-top:102px;
+  }
+  .carousel img{
+    height: 490px;
+  }
+  .carousel-inner{
+    height:500px;
+ 
+
+  }
+  .carousel-caption{
+ 
+    margin-bottom:80px !important;
+
+  }
+
+ .search-trip .head {
+  background-color: #58c21e;
+  width:97%;
+  color:rgb(243, 240, 240);  
+ 
+
+}
+ #sec1,#sec2,#sec3,#sec4{
+ margin:2px;
+ width:95%;
+ height:25px;
+
+
+ 
+ 
+}
+.search-trip .btn{
+height:40px;
+}
+
+  .search-trip{
+  
+    background-color: transparent;
+      display:flex;
+      flex-direction: column;
+   
+      margin-top:4px;
+  }
+   .trip-price{
+    width:70px;
+    height:30px;
+    margin:-13% 0 0 58%;
+  
+  }
+  .arrnapurna .trip-price{
+    width:70px;
+    height:30px;
+    margin:-16% 0 0 59% !important;
+  
+  }
+  .nepal-trek .card-deck .view{
+  
+    height:25%;
+  }
+  .blog .card-deck .view{
+   
+    height:15%;
+ }
+ .blog-date{
+  width:40px;
+  height:45px;
+ }
+ .blog-date h4{
+   font-size: 13px;
+   margin-top:20px;
+ }
+ 
+.discover .h2-responsive{
+  padding:35px 0 20px 0 !important;
+}
+.discover{
+  height:1900px;
+}
+.discover-nepal{
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  height:1800px;
+
+  margin:0px 40px 10px 40px;
+ 
+  grid-gap:1px;
+
+}
+.discover-nepal h3{
+  margin:160px 0 0 10px;
+  color:white;
+  font-size: 22px;
+}
+
+.place1,.place2,.place3,.place4,.place5{
+  height:350px;
+  display: flex;
+  justify-content: end;
+}
+.place3{
+    grid-row: span 1;
+    
+}
+.place3 h3{
+  margin:160px 0 0 10px;
+}
+.card-deck{
+  margin:0 10px 10px 10px;
+}
+
+.testimonial{
+  margin:10px 20px 0 20px;
+}
+
+.destination h2{
+
+	font-size: 30px;
+	font-weight: 200;
+
+}
+.destination .container{
+	margin: 4% auto;
+	width: 210px;
+  height: 140px;
+
+	position: relative;
+	perspective: 1000px;
+}
+.destination  #carousel{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+  animation: rotation 20s infinite linear;
+
+}
+.destination  #carousel:hover{
+	animation-play-state: paused;
+}
+.destination  #carousel figure{
+  display: block;
+
+	position: absolute;
+	width: 156px;
+	height: 106px;
+	left: 10px;
+	top: 10px;
+	background: black;
+	overflow: hidden;
+	border: solid 3px black;
+}
+
+
+
+}
+
+@media screen and (max-width:576px){
+  nav img{
+    width: 250px;
+  }
+  header{
+
+    height:550px;
+  }
+  .navbar-nav{
+    margin-left: 5%;
+  }
+  .carousel{
+    height:500px !important;
+    margin-top:82px;
+  }
+  .carousel img{
+    height: 490px;
+  }
+  .carousel-inner{
+    height:500px;
+ 
+
+  }
+  .carousel-caption{
+ 
+    margin-bottom:80px !important;
+
+  }
+
+  .search-trip .head {
+   background-color: #58c21e;
+   width:97%;
+   color:rgb(243, 240, 240);  
+  
+ 
+ }
+  #sec1,#sec2,#sec3,#sec4{
+  margin:2px;
+  width:95%;
+  height:25px;
+ 
+ 
+  
+  
+ }
+ .search-trip .btn{
+ height:40px;
+ }
+
+   .search-trip{
+   
+     background-color: transparent;
+       display:flex;
+       flex-direction: column;
+    
+       margin-top:4px;
+   }
+    .trip-price{
+    
+        width:80px;
+        height:40px;
+    
+      
+      
+     margin-left:80%;
+   
+   }
+   .arrnapurna .trip-price{
+    width:80px;
+    height:40px;
+    margin:-10% 0 0 80% !important;
+  
+  }
+   .nepal-trek .card-deck .view{
+   
+   margin-bottom: 30px;
+   }
+  
+ 
+  
+ .discover .h2-responsive{
+   padding:35px 0 20px 0 !important;
+ }
+ .discover{
+   height:1700px;
+ }
+ .discover-nepal{
+   display:grid;
+   grid-template-columns:1fr;
+   grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+   height:1600px;
+
+   margin:0px 40px 10px 40px;
+  
+   grid-gap:1px;
+ 
+ }
+ .discover-nepal h3{
+   margin:160px 0 0 10px;
+   color:white;
+   font-size: 22px;
+ }
+ 
+ .place1,.place2,.place3,.place4,.place5{
+   height:300px;
+   display: flex;
+   justify-content: end;
+ }
+ .place3{
+     grid-row: span 1;
+     
+ }
+ .place3 h3{
+   margin:160px 0 0 10px;
+ }
+ .card-deck{
+   margin:0 10px 10px 10px;
+ }
+ .newsletter{
+  height:300px;
+  display:flex;
+  background-color: rgb(212, 211, 209);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newsletter-form{
+  display:flex;
+  width:70%;
+  height:90px;
+  margin-top:15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+
+
+}
+.newsletter-form .btn{
+width:150px;
+height:120px !important;
+}
+ 
+ .testimonial{
+   margin:10px 20px 0 20px;
+ }
+
+
+
+ .destination h2{
+text-align: center;
+font-size: 32px;
+margin-bottom:10px;
+ }
+}
+@media screen and (max-width:750px){
+  .l-body{
+   
+    display:grid;
+    
+    grid-template-columns: 1fr;
+    margin:0 10px 0 0;
+ 
+  }
+}

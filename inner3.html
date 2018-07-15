@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>New Generation</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- Bootstrap core CSS --><link href="jquery.fancybox.min.css" rel="stylesheet">
+        <script src="jquery.fancybox.min.js" ></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+  
+<style>
+header{
+height:600px;
+}
+ .carousel{
+    height:580px !important;
+
+  }
+  .carousel img{
+      height:560px;
+  }
+  .carousel-inner{
+    height:580px !important;
+  }
+ 
+ .carousel-caption{
+       margin-bottom: 150px !important;
+   }
+   .shows{
+    margin-top: -41px;
+}
+.gradient-background {
+  background: -webkit-linear-gradient(45deg, rgba(21, 234, 39, 0.945), rgba(4, 16, 179, 0.897) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(234, 21, 129, 0.6)), to(rgba(10, 23, 187, 0.6)));
+  background: linear-gradient(to 45deg, rgba(234, 21, 129, 0.6), rgba(10, 23, 187, 0.6) 100%); }
+.accordion.accordion-2 p {
+  font-size: 1rem; }
+.accordion.accordion-2 .card {
+  border: 0;
+  background-color: transparent; }
+  .accordion.accordion-2 .card .card-header,
+  .accordion.accordion-2 .card .card-body {
+    border: 0;
+    border-radius: 3px; }
+.accordance{
+    margin:35px 10px 10px 0;
+}
+
+
+     .l-body{
+   
+   display:grid;
+   grid-template-columns: 1fr 0.1fr 3fr;
+   margin:-10px 10px 0 0;
+
+ }
+ .line{
+   width:1px;
+   height:96%;
+   border:0.5px solid rgba(179, 178, 178, 0.822);
+   margin-top:80px;
+
+ }
+
+ .search-trip{
+   display:flex;
+   flex-direction: column;
+   width:90%;
+   margin-left:10px;
+   background-color: transparent;
+ }
+ .search-trip .mdb-select{
+   padding:12px;
+   margin-top:5px;
+ }
+ .left-body .activities ul{
+list-style-type:square;
+margin-left:15px;
+
+ }
+.activities ul li a{
+ font-size:18px;
+}
+.activities ul li {
+ padding:7px;
+}
+.package li:hover{
+ background-color: rgb(151, 153, 155);
+}
+.package{
+ width:90%;
+ margin-left:10px;
+}
+.news{
+ width:320px;
+
+}
+.news .accordion .card{
+
+ width:98%;
+ margin:20px 0 0 2px;
+}
+.ourservice .row{
+ 
+    margin-left:-25px;
+}
+.ourservice .row img{
+ 
+width:100%;
+height: 100%;
+
+}
+   .ourservice .row .colm{
+ margin-top: 20px !important;
+
+
+}
+
+.ourservice #column{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column; 
+    padding:20px 10px 20px 10px;
+    border-right: 1px solid rgba(230, 227, 227, 0.726);
+    border-bottom: 1px solid rgba(226, 224, 224, 0.63);
+  
+
+}
+.ourservice #column p{
+   text-align: center;
+    margin:0 5px 0 5px;
+ 
+}
+.ourservice #column h3{
+   text-align: center;
+    margin: 5px 0 5px 0;
+ 
+}
+.list-group h5{
+    color: rgba(245, 245, 245, 0.904) !important;
+}
+.list-group p{
+    color: rgba(229, 226, 226, 0.719) !important;
+}
+.list-group small{
+    color: rgba(245, 245, 245, 0.904) !important;   
+}
+.list-group ul li{
+    color: rgba(229, 226, 226, 0.719) !important;
+}
+.accordance button{
+    margin-top:15px;
+}
+.button2:hover .share-social{
+  
+ display:block;
+}
+.share-social{
+    display: none;
+margin-left: 20px;
+}
+.modal-title{
+    color: rgb(137, 233, 41);
+    font-weight:400;
+}
+.trip-detail{
+    font-size: 14px;
+    color: rgb(100, 105, 105);
+    border-top:0.8px solid rgba(184, 176, 176, 0.76);
+    list-style-type:square;
+}
+.trip-detail li{
+ padding-top:5px;
+}
+.trip-price{
+  width:110px;
+  height:50px;
+  background-color:#58c21e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:-13% 0 0 60%;
+  z-index: 3;
+}
+.trip-price p{
+  font-size: 16px;
+  margin-top:15px;
+}
+.right-body{
+   margin-top:50px;
+ }
+ .right-body h2{
+   margin-bottom:50px;
+ }
+ @media screen and (min-width:750px) and (max-width:1150px){
+    .trip-price{
+  display: none;
+}
+ }
+@media screen and (max-width:750px){
+    .trip-price{
+  display: none;
+}
+    .carousel{
+margin-top:-10px;
+
+  }   .l-body{
+   
+    display:grid;
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+    margin:0 10px 0 0;
+ 
+  }
+  .search-trip{
+   display:flex;
+   flex-direction: column;
+   width:100%;
+   margin-left:10px;
+   margin-right:10px;
+   background-color: transparent;
+ }
+ .package{
+ width:100%;
+ margin-left:10px;
+ margin-right:10px;
+}
+.news{
+ width:100%;
+ margin-left:10px;
+ margin-right:10px;
+}
+.line{
+    display: none;
+}
+.left-body{
+   
+    
+}
+.ourservice .row{
+ 
+ margin:0 20px 0 20px;
+}
+.right-body .card{
+    margin-top: 15px;
+}
+}
+</style>
+ 
+
+</head>
+
+<body>
+
+    <!-- Main navigation -->
+    <header>
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+              <div class="container">
+              <img src="img/logo4.png" a href="index.html" width="280px">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="inner1.html">Nepal</a>
+                              <a class="dropdown-item" href="inner1.html">Bhutan</a>
+                              <a class="dropdown-item" href="inner1.html">Tibet</a>
+                              <a class="dropdown-item" href="inner1.html">India</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Activities</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="inner2.html">Tour in Nepal</a>
+                              <a class="dropdown-item" href="inner2.html">Trekking in Nepal</a>
+                              <a class="dropdown-item" href="inner2.html">Rafting in Nepal</a>
+                              <a class="dropdown-item" href="inner2.html">Peak Climbing</a>
+                              <a class="dropdown-item" href="inner2.html">Jungle Safari in Nepal</a>
+                              <a class="dropdown-item" href="inner2.html">Mountain Biking in Nepal</a>
+                              <a class="dropdown-item" href="inner2.html">Nepal Mountaineering</a>
+                              <a class="dropdown-item" href="inner2.html">Sports in Nepal</a>
+                              <a class="dropdown-item" href="inner2.html">Hotel Booking in Nepal</a>
+                              <a class="dropdown-item" href="inner2.html">Festival in Nepal</a>
+                              <a class="dropdown-item" href="honey.html">Honey Hunting in Nepal</a>
+                              <a class="dropdown-item" href="inner2.html">Air Ticketing</a>
+                            </div>
+                        </li>
+                              <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                  </li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </nav>
+            <!-- Full Page Intro -->
+            <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+          
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                            <h1 class="h1-responsive">NEPAL</h1>
+                            <p>HEAVEN LIES BEYOND THE NATURE</p>
+                           
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                        <div class="mask rgba-black-strong"></div>
+                    </div>
+                    <div class="carousel-caption">
+                            <h1 class="h1-responsive">NEPAL</h1>
+                            <p>HEAVEN LIES BEYOND THE NATURE</p>
+            
+                      
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                        <div class="mask rgba-black-slight"></div>
+                    </div>
+                    <div class="carousel-caption">
+                            <h1 class="h1-responsive">WELCOME</h1>
+                            <p>To New Nepal Gneration</p>
+            
+                    
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+        
+          </header>
+          <div class="shows">
+            <p>HOME > INNER2 >INNER3</p>
+          </div>
+
+  <!-- Main navigation -->              
+  <div class=" l-body">
+    <div class="left-body">
+      <div class="search-trip">
+        <center><h2>Search Trip</h2></center>
+        <select class="mdb-select">
+            <option value="" disabled selected>Destination</option>
+            <option value="1">Nepal</option>
+            <option value="2">Bhutan</option>
+            <option value="3">India</option>
+        </select>
+        <select class="mdb-select">
+            <option value="" disabled selected>Activity</option>
+            <option value="1">Treeking</option>
+            <option value="2">Riding</option>
+            <option value="3">Hiking</option>
+        </select>
+        <select class="mdb-select">
+            <option value="" disabled selected>Duration</option>
+            <option value="1">1 MOnth</option>
+            <option value="2">2 Week</option>
+            <option value="3">5 Days</option>
+        </select>
+      
+  
+       </div>
+       <hr class="my-5">
+       <div class="activities">
+         <center><h2>Activities</h2></center>
+         <ul>
+           
+  
+  
+            <li><a  href="inner2.html">Tour in Nepal</a></li> 
+            <li> <a href="inner2.html">Rafting in Nepal</a></li> 
+             <li><a  href="inner2.html">Peak Climbing</a></li> 
+               <li> <a  href="inner2.html">Jungle Safari in Nepal</a></li> 
+                 <li><a  href="inner2.html">Mountain Biking in Nepal</a></li> 
+                   <li><a  href="inner2.html">Nepal Mountaineering</a></li> 
+                     <li><a href="inner2.html">Sports in Nepal</a></li> 
+                       <li> <a href="inner2.html">Hotel Booking in Nepal</a></li> 
+                         <li><a  href="inner2.html">Festival in Nepal</a></li> 
+                           <li> <a  href="honey.html">Honey Hunting in Nepal</a></li> 
+                             <li> <a href="inner2.html">Air Ticketing</a></li> 
+             
+          
+         </ul>
+       </div>
+       <hr class="my-5">  
+       <div class="package">
+         <center><h2>Popular Package</h2></center>
+         <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                India Tour Package
+                <span class="badge badge-primary badge-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+               Bhutan Tour Package
+                <span class="badge badge-primary badge-pill">2</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Tibet Tour Package
+                <span class="badge badge-primary badge-pill">1</span>
+            </li>
+        </ul>
+       </div>
+       <hr class="my-5">  
+       <div class="news">
+         <center><h2>Latest News</h2></center>
+         <!--Accordion wrapper-->
+  <div class="accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+  
+      <!-- Accordion card -->
+      <div class="card">
+  
+          <!-- Card header -->
+          <div class="card-header" role="tab" id="headingOne">
+              <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h5 class="mb-0">
+                      Happy New Year 2018 and 10% discount <i class="fa fa-angle-down rotate-icon"></i>
+                  </h5>
+              </a>
+          </div>
+  
+          <!-- Card body -->
+          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionEx" >
+              <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                  moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  
+              </div>
+          </div>
+      </div>
+      <!-- Accordion card -->
+  
+      <!-- Accordion card -->
+      <div class="card">
+  
+          <!-- Card header -->
+          <div class="card-header" role="tab" id="headingTwo">
+              <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h5 class="mb-0">
+                      Adventure Success Certificate<i class="fa fa-angle-down rotate-icon"></i>
+                  </h5>
+              </a>
+          </div>
+  
+          <!-- Card body -->
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionEx" >
+              <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                  moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sap
+              </div>
+          </div>
+      </div>
+      <!-- Accordion card -->
+  
+      <!-- Accordion card -->
+      <div class="card">
+  
+          <!-- Card header -->
+          <div class="card-header" role="tab" id="headingThree">
+              <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h5 class="mb-0">
+                      successfully soumit Mera peak 6474 <i class="fa fa-angle-down rotate-icon"></i>
+                  </h5>
+              </a>
+          </div>
+  
+          <!-- Card body -->
+          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionEx">
+              <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                  moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                  et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+                  synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+          </div>
+      </div>
+      <!-- Accordion card -->
+  </div>
+  <!--/.Accordion wrapper-->
+       </div>
+       <hr class="my-5">  
+       <div class="associate">
+          <center><h2>Associated With</h2></center>
+          <div class="member">
+          <center><img src="img/assoc_img.png"></center>
+        
+          </div>
+        </div>
+        <hr class="my-5"> 
+  <!--Carousel Wrapper-->
+  <center><h2>Testimonial</h2></center>
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+      <!--Indicators-->
+    
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+        <div class="carousel-item active">
+            <center><h3>cli1</h3>
+              <p>       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch</p></center>
+          </div>
+          <!--/First slide-->
+          <!--Second slide-->
+          <div class="carousel-item">
+              <center> <h3>client2</h3>
+              <p>Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                  moon tempor, sunt aliqua put a bird on it squi</p></center>
+          </div>
+          <!--/Second slide-->
+          <!--Third slide-->
+          <div class="carousel-item">
+              <center> <h3>client3</h3>
+            <p> Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p> </center>
+          </div>
+          <!--/Third slide-->
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+  
+      <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+  
+    </div>
+    <div class="line"></div>
+  
+<div class="service">
+<section class="my-5">
+
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold text-center my-5">ABOUT Kathmandu</h2>
+  <!-- Section description -->
+  <p class="text-center w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+      deserunt mollit anim id est laborum.</p>
+
+<div class="ourservice">
+   
+      
+        <!--First row-->
+<div class="row">
+        <div class="col-sm-12 col-lg-6 colm">
+                <iframe  width="95%" height="200px" 
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                </iframe>
+                
+            </div>
+            <div class="col-sm-12 col-lg-6 colm">
+                    <iframe width="95%" height="200px"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                    </iframe>
+                    
+                </div>
+<div class="col-sm-12 col-lg-4 colm">
+    <a href="fancy/1.png" data-caption="Image 0" data-fancybox="images">
+        <img src="fancy/1.png" alt="img0"></a>
+</div>
+   <div class="col-sm-12 col-lg-4 colm">
+    <a href="fancy/2.jpg" data-caption="Image 1" data-fancybox="images">
+        <img src="fancy/2.jpg" alt="img1"></a>
+</div>
+<div class="col-sm-12 col-lg-4 colm">
+    <a href="mountain.jpg" data-caption="Image 2" data-fancybox="images">
+        <img src="mountain.jpg" alt="img2"></a>
+</div>
+
+<div class="col-sm-12 col-lg-4 colm">
+    <a href="fancy/4.jpg" data-caption="Image 3" data-fancybox="images">
+    <img src="fancy/4.jpg" alt="img3"></a>
+</div>
+<div class="col-sm-12 col-lg-4 colm">
+    <a href="fancy/5.jpg" data-caption="Image 4" data-fancybox="images">
+        <img src="fancy/5.jpg" alt="img4"></a>
+</div>
+
+      </div>
+      </div>
+
+      <div class="accordance">
+<!-- Grid row -->
+<div class="row gradient-background d-flex justify-content-center">
+
+    <!-- Grid column -->
+    <div class="col-md-10 col-xl-8 py-5">
+
+        <!--Accordion wrapper-->
+        <div class="accordion accordion-2" id="accordionEx7" role="tablist" aria-multiselectable="true">
+
+            <!-- Accordion card -->
+            <div class="card">
+
+                <!-- Card header -->
+                <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading1">
+                    <a data-toggle="collapse" data-parent="#accordionEx7" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                        <h5 class="mb-0 white-text text-uppercase font-thin">
+                            Itineary<i class="fa fa-angle-down rotate-icon"></i>
+                        </h5>
+                    </a>
+                </div>
+
+                <!-- Card body -->
+                <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1" data-parent="#accordionEx7">
+                    <div class="card-body mb-1 rgba-grey-light white-text">
+                        <div class="list-group">
+                            <a href="#" class="flex-column align-items-start ">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Day 01: Arrive Kathmandu.</h5>
+                                <small>4 days</small>
+                              </div>
+                              <p class="mb-1">Arrive at Tribhuwan International Airport, Kathmandu, you are welcomed by the hospitable meeting and then you will be transferred to your hotel. Our guide/tour officer will explain briefly the program upon arrival at hotel.</p>
+                            
+                            </a>
+                            <hr class="my-2">
+                            <a href="#" class=" flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Day 02: Kathmandu</h5>
+                               
+                              </div>
+                              <p class="mb-1">Early morning Mountain flight over the Himalayas. (Optional Tours).
+                                Breakfast at Hotel.<br>
+                                AM: Guided visit of Kathmandu City and Swayambhunath.<br>
+                                PM: Guided visit of Patan City.</p>
+                            </a>
+                            <hr class="my-2">
+                            <a href="#" class=" flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Day 03: Kathmandu</h5>
+                                
+                              </div>
+                              <p class="mb-1">Breakfast at Hotel<br>
+                                AM: Guided Visit Pashupatinath and Bodhnath.<br>
+                                PM: Guided Visit Bhaktapur City.</p>
+                            </a>
+                            <hr class="my-2">
+                            <a href="#" class=" flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Day 04: Kathmandu/Departure</h5>
+                                
+                              </div>
+                              <p class="mb-1">                            
+                                Free till departure, departure transfer to airport to connect onward flight.</p>
+                            </a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Accordion card -->
+
+            <!-- Accordion card -->
+            <div class="card">
+
+                <!-- Card header -->
+                <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading2">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        <h5 class="mb-0 white-text text-uppercase font-thin">
+                            Cost Details <i class="fa fa-angle-down rotate-icon"></i>
+                        </h5>
+                    </a>
+                </div>
+
+                <!-- Card body -->
+                <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2" data-parent="#accordionEx7">
+                    <div class="card-body mb-1 rgba-grey-light white-text">
+                        <div class="list-group">
+                            <a href="#" class="flex-column align-items-start ">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Cost Includes</h5>
+                              
+                              </div>
+                              <ul class="mb-1">
+                                  <li>Hotel accommodation at respective hotels on BB basis </li>
+                                  <li>All transfers using private Air condition car.</li>
+                                  <li>All sightseeing tours accompanied by local guide. (please note this tour will be operated in English language unless other language specified – We have French, Italian, German, Spanish, Japanese, Russian, Chinese, speaking guides are available) </li>
+                                  <li>Necessary entrance fees to Monuments.</li>
+                               
+                              </ul>
+                            </a>
+                            <hr class="my-2">
+                            <a href="#" class=" flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Cost Excludes</h5>
+                               
+                              </div>
+                              <ul class="mb-1">
+                                <li>Airfare to/from Nepal.  </li>
+                                <li>Nepal visa fee – available upon arrival at Kathmandu airport – USD 25.00 per person for multiple entry upto 15 days..</li>
+                                <li>Beverage and expenses of personal nature. </li>
+                                <li>Any Optional Sightseeing Tours and extension of tours, hotel accommodation etc. .</li>
+                                <li>Tips to guide, porters, drivers etc.</li>
+                                <li>Personal Insurance</li>
+                             
+                            </ul>
+                            </a>
+                            
+                           
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Accordion card -->
+
+            <!-- Accordion card -->
+            <div class="card">
+
+                <!-- Card header -->
+                <div class="card-header rgba-stylish-strong z-depth-1 mb-1" role="tab" id="heading3">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                        <h5 class="mb-0 white-text text-uppercase font-thin">
+                    Fixed Depatures <i class="fa fa-angle-down rotate-icon"></i>
+                        </h5>
+                    </a>
+                </div>
+
+                <!-- Card body -->
+                <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3" data-parent="#accordionEx7">
+                    <div class="card-body mb-1 rgba-grey-light white-text">
+                        <p>All Seasons: Every Sunday and Thursday</p>
+                </div>
+            </div>
+            <!-- Accordion card -->
+        </div>
+        <!--/.Accordion wrapper-->
+
+    </div>
+    <!-- Grid column -->
+    <a href="inquiry.html"><button type="button" class="btn btn-primary button1">Inquiry</button></a>
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+ SHARE
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered " role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">SHARE WITH:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <a type="button" class="btn-floating btn-lg btn-fb"><i class="fa fa-facebook"></i></a>
+                <!--Twitter-->
+                <a type="button" class="btn-floating btn-lg btn-tw"><i class="fa fa-twitter"></i></a>
+                <!--Google +-->
+                <a type="button" class="btn-floating btn-lg btn-gplus"><i class="fa fa-google-plus"></i></a>
+                <!--Linkedin-->
+                <a type="button" class="btn-floating btn-lg btn-li"><i class="fa fa-linkedin"></i></a>
+                <!--Instagram-->
+                <a type="button" class="btn-floating btn-lg btn-ins"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+               
+            </div>
+        </div>
+    </div>
+</div>
+    
+    </div>
+    </div>
+
+    
+</div>
+<!-- Grid row -->
+
+<div class="right-body">
+           
+                
+              
+                
+    <center><h2> Related Packages</h2></center>
+    
+    <div class="row">
+       
+
+      
+        <br/>
+
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 ">
+                <!-- Card -->
+                   <div class="card wow fadeInUp">
+
+  <!-- Card image -->
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+
+  <!-- Card content --> 
+  <div class="trip-price">
+<p>$700</p>
+</div>
+  <div class="card-body">
+
+    <!-- Title -->
+    <h5 class="card-title"><a>Kathmandu Cultural Tour</a></h5>
+    <!-- Text -->
+    <p class="card-text">
+        <div class=" row trip-detail">
+               <li class= "col-lg-12">Trip Duration :5 days</li>
+               <li class= "col-lg-12">Trip Grade : Moderate</li>
+               <li class= "col-lg-12">Maximum Altitude : 3835 Meters</li>
+              
+
+        </div>
+       </p>
+    <a href="inner3.html" class="btn">View Detail</a>
+
+  </div>
+
+             </div>
+<!-- Card -->
+            </div>
+
+       
+
+       
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                  <!-- Card -->
+                     <div class="card wow fadeInUp">
+
+    <!-- Card image -->
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+    <div class="trip-price">
+            <p>$700</p>
+        </div>
+    <!-- Card content -->
+    <div class="card-body">
+  
+      <!-- Title -->
+      <h4 class="card-title"><a>Thulopatal Village</a></h4>
+      <!-- Text -->
+      <p class="card-text">
+            <div class=" row trip-detail">
+                   <li class= "col-lg-12">Trip Duration :5 days</li>
+                   <li class= "col-lg-12">Trip Grade : Moderate</li>
+                   <li class= "col-lg-12">Maximum Altitude : 3835 Meters</li>
+                  
+
+            </div>
+           </p>  <!-- Button -->
+      <a href="inner3.html" class="btn ">View Detail</a>
+  
+    </div>
+  
+               </div>
+  <!-- Card -->
+              </div>
+  
+              <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 ">
+                  <!-- Card -->
+<div class="card wow fadeInUp" data-wow-delay="0.2s">
+
+    <!-- Card image -->
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+    <div class="trip-price">
+            <p>$700</p>
+        </div>
+    <!-- Card content -->
+    <div class="card-body">
+  
+      <!-- Title -->
+      <h4 class="card-title"><a>POkhara Tour</a></h4>
+      <!-- Text -->
+      <p class="card-text">
+            <div class=" row trip-detail">
+                   <li class= "col-lg-12">Trip Duration :5 days</li>
+                   <li class= "col-lg-12">Trip Grade : Moderate</li>
+                   <li class= "col-lg-12">Maximum Altitude : 3835 Meters</li>
+                  
+
+            </div>
+           </p>  <!-- Button -->
+      <a href="inner3.html" class="btn">View Detail</a>
+  
+    </div>
+  
+  </div>
+  <!-- Card -->
+              </div>
+  
+              <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 ">
+                  <!-- Card -->
+<div class="card wow fadeInUp" data-wow-delay="0.4s">
+
+    <!-- Card image -->
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+    <div class="trip-price">
+            <p>$700</p>
+        </div>
+    <!-- Card content -->
+    <div class="card-body">
+  
+      <!-- Title -->
+      <h4 class="card-title"><a>Chitwan Tour</a></h4>
+      <!-- Text -->
+      <p class="card-text">
+            <div class=" row trip-detail">
+                   <li class= "col-lg-12">Trip Duration :5 days</li>
+                   <li class= "col-lg-12">Trip Grade : Moderate</li>
+                   <li class= "col-lg-12">Maximum Altitude : 3835 Meters</li>
+                  
+
+            </div>
+           </p> <!-- Button -->
+      <a href="inner3.html" class="btn ">View Detail</a>
+  
+    </div>
+  
+  </div>
+  <!-- Card -->
+              </div>
+              
+      
+                 
+      
+             
+           
+        </div>
+
+ 
+
+</div>
+</section>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+<div class="footer">
+    <!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4 mt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" id="logo">
+            <img src="img/logo.png" a href="index.html" width="200px">
+       
+            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <button type="button" class="btn" data-toggle="modal" data-target="#modalPoll">FEEDBACK</button>
+            <!-- Modal: modalPoll -->
+            <div class="modal fade right" id="modalPoll" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"
+              data-backdrop="false">
+              <div class="modal-dialog modal-full-height modal-right modal-notify modal-info" role="document">
+                <div class="modal-content">
+                  <!--Header-->
+                  <div class="modal-header">
+                    <p class="heading lead">Feedback request
+                    </p>
+            
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" class="white-text">×</span>
+                    </button>
+                  </div>
+            
+                  <!--Body-->
+                  <div class="modal-body">
+                    <div class="text-center">
+                      <i class="fa fa-file-text-o fa-4x mb-3 animated rotateIn"></i>
+                      <p>
+                        <strong>Your opinion matters</strong>
+                      </p>
+                      <p>Have some ideas how to improve our service?
+                        <strong></strong>Give us your feedback.</strong>
+                      </p>
+                    </div>
+            
+                    <hr>
+            
+                    <!-- Radio -->
+                    <p class="text-center">
+                      <strong>Your rating</strong>
+                    </p>
+                    <div class="form-check mb-4">
+                  <input class="form-check-input" name="group1" type="radio" id="radio-179" value="option1" checked>
+                  <label class="form-check-label" for="radio-179">Very good</label>
+                </div>
+            
+                <div class="form-check mb-4">
+                  <input class="form-check-input" name="group1" type="radio" id="radio-279" value="option2">
+                  <label class="form-check-label" for="radio-279">Good</label>
+                </div>
+            
+                <div class="form-check mb-4">
+                  <input class="form-check-input" name="group1" type="radio" id="radio-379" value="option3">
+                  <label class="form-check-label" for="radio-379">Mediocre</label>
+                </div>
+                <div class="form-check mb-4">
+                  <input class="form-check-input" name="group1" type="radio" id="radio-479" value="option4">
+                  <label class="form-check-label" for="radio-479">Bad</label>
+                </div>
+                <div class="form-check mb-4">
+                  <input class="form-check-input" name="group1" type="radio" id="radio-579" value="option5">
+                  <label class="form-check-label" for="radio-579">Very bad</label>
+                </div>
+                    <!-- Radio -->
+            
+                    <p class="text-center">
+                      <strong>What could we improve?</strong>
+                    </p>
+                    <!--Basic textarea-->
+                    <div class="md-form">
+                      <textarea type="text" id="form79textarea" class="md-textarea form-control" rows="3"></textarea>
+                      <label for="form79textarea">Your message</label>
+                    </div>
+            
+                  </div>
+            
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <a type="button" class="btn btn-primary waves-effect waves-light">Send
+                      <i class="fa fa-paper-plane ml-1"></i>
+                    </a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Cancel</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal: modalPoll -->
+          </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">NEWSLETTER</h6>
+  
+     
+            <input type="text" id="exampleForm2" class="form-control" placeholder="Your E-MAIL">
+          
+            
+            <button type="button" class="btn btn-md">Subscribe</button>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <p><a href="#!">Activities</a></p>
+        <p><a href="#!">Travel guide</a></p>
+        <p><a href="#!">Why us</a></p>
+        <p><a href="#!">Attraction</a></p>
+        <p><a href="#!">Help</a></p>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Get in touch</h6>
+        <p><i class="fa fa-home mr-3"></i> 
+          P.O. Box 24984, Jorpati-3, Bouddha, Kathmandu, Nepal
+        </p>
+        <p><i class="fa fa-envelope mr-3"></i>  info@newgenerationtrek.com</p>
+        <p><i class="fa fa-phone mr-3"></i> 00977-1- 4917 125 </p>
+        <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-8 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2018 Copyright: <a href="https://mdbootstrap.com/bootstrap-tutorial/"><strong> viewnepal.com</strong></a></p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-google-plus"></i></a></li>
+            <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+</div>
+    
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script>
+
+ 
+$(document).ready(function() {
+   $('.mdb-select').material_select();
+ });
+ 
+  $(document).ready(function(){
+
+        $('[data-fancybox="images"]').fancybox({
+	
+});
+    });
+    $('.carousel').carousel()
+    new WOW().init();
+    </script>
+        
+</body>
+
+</html>
